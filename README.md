@@ -7,4 +7,4 @@ Accurate and efficient non-rigid registration is important to investigate neural
 ***Keywords: two-photon imaging, multi-session, image registration, non-rigid***
 
 ## Run the TPAT toolbox
-***According to the file of "Instructions for TPAT toolbox.pdf". ***
+***According to the file of Instructions for TPAT toolbox.pdf.***

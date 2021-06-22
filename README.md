@@ -8,3 +8,4 @@ Accurate and efficient non-rigid registration is important to investigate neural
 
 ## Run the TPAT toolbox
 ***According to the file of Instructions for TPAT toolbox.pdf.***
+<img src="TPAT-overview-1.jpg" height="600px" width="auto"/> 

@@ -351,9 +351,14 @@ Im=ImregTriangle.ImMovingStatic{1,1};
 pathname=Im.path; 
 filename=Im.name; 
 TR_ind=find(filename=='.');
+% % ----------
 matname=[filename(1:TR_ind(end)-1) '_RegtriEsti.mat'];
-fullpath=[pathname matname];
-save(fullpath,'ImregTriangle')
+matpath=[pathname matname];
+save(matpath,'ImregTriangle')
+% % -----------
+imname = [filename(1:TR_ind(end)-1) '_RegtriEsti.tif'];
+impath = [pathname imname];
+imwrite(ImregTriangle.ImRegister.data,impath)
 
 StatusHint='Save registration file done.';
 set(handles.StatusHint,'String',StatusHint);  
